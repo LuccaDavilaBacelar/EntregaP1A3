@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* background-color: #333; */
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color:  #ccc;;
+}
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    color: white;
+}
+/* APARENTE CAUSA DOS PROBLEMAS, REFAZER */
+
+/* isso aqui por algum motivo tava gerando um espaço em branco que apontava pro html, mas ai trocamos de "nav" para "div". Achamos que o problema seja com display flex. */
+.header {
+    display: flex;
+    align-items: start;
+
+}
+/*NÃO MEXA NESSA NAVBAR*/
+h1 {
+    font-family: 'Press Start 2P', cursive;
+}
+.navButtons {
+    margin: 15px;
+}
+a {
+    background-color: rgba(18, 18, 197, 0.774);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+/* passa o mouse em cima */
+a:hover {
+    color: rgba(255, 255, 255, 0.719);
+    background-color: rgba(105, 105, 226, 0.774);
+}
+.cardContainer {
+    background-color: #ccc;
+    height: 500px;
+    /* Ajuste conforme necessário, pelo menos 500px + margem do footer */
+    width: 100%;
+}
+.cardUp {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#cardDown {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card {
+    width: 300px;
+    height: 170px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    border: 3px solid black
+}
+.card img {
+    max-width: 100%;
+    height: 100%;
+}
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #333;
+    height: 50px;
+}
