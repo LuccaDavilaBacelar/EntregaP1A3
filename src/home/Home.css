@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #353535;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #E22B41;
+    padding: 0px 15px;
+    height: 160px;
+    align-items: center;
+}
+
+#title {
+    font-size: 45px;
+    color: #ffffff;
+}
+
+#mygamelist {
+    margin-bottom: 60px;
+}
+
+.tabs-format {
+    display: flex;
+    margin-left: 90px;
+    justify-content: end;
+    align-self: end;
+}
+
+#tabs {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.tablinks {
+    background-color: #E22B41;
+    font-size: 35px;
+    color: #353535;
+    float: left;
+    border: 1px solid #E22B41;
+    cursor: pointer;
+    padding: 10px;
+    min-height: 60px;
+    min-width: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tablinks.active {
+    background-color: #353535;
+    color: #E22B41;
+    border: 1px solid #353535;
+    text-decoration: underline;
+}
+
+.tablinks.active:hover {
+    background-color: #444444;
+}
+
+.tablinks:hover {
+    background-color: #dd4254;
+}
+
+.content {
+    height: 100vh;
+}
+
+.tabcontent {
+    display: none;
+    flex-basis: 100%;
+    padding: 20px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    padding: 5px;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.card-container {
+    width: 230px;
+    border-style: solid;
+    border-color: #E22B41;
+    border-radius: 3px;
+}
+
+#adicionar {
+    background-image: url("https://cdn.discordapp.com/attachments/861132128270680097/1173484980190589018/Copia_de_Copia_de_Copia_de_Copia_de_Cards_petalos.png?ex=6564200d&is=6551ab0d&hm=e8ad722e875f7e46165a87c53d65412b251a7e170b8a082df6f645c7d4980f43&");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#game1 {
+    background-image: url("https://image.api.playstation.com/vulcan/ap/rnd/202308/2022/58e732815b72c5fa8e0be6bfb8f1949256f63495417cba21.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#game2 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/2/2a/A_Hat_in_Time_cover_art.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#game3 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/pt/f/fa/Yakuza_0_Ryu_Ga_Gotoku_Studio_Sega_capa_digital.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#game4 {
+    background-image: url("https://image.api.playstation.com/vulcan/ap/rnd/202010/0114/b4Q1XWYaTdJLUvRuALuqr0wP.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#game5 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/pt/1/19/MGS5_TPP.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#game6 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/6/6c/Risk_of_Rain_Cover.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#game7 {
+    background-image: url("https://image.api.playstation.com/vulcan/ap/rnd/202110/2000/aGhopp3MHppi7kooGE2Dtt8C.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#game8 {
+    background-image: url("https://image.api.playstation.com/cdn/UP3893/CUSA08801_00/pDm46Nye9OTyuH210Se9cWyCVx7OuXWb.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#game9 {
+    background-image: url("https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/1c0c5b770f5484f249b7d4d4b47f78f8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#game10 {
+    background-image: url("https://image.api.playstation.com/vulcan/ap/rnd/202104/0517/9AcM3vy5t77zPiJyKHwRfnNT.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h3 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.card-body {
+    height: 280px;
+}
